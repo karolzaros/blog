@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 550px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+    padding: 15px;
+}
+
+#imgamarela{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#button {
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#flex{
+    display: flex;
+    grid-template-columns: 'imgpessoa' 'nome' ;
+    align-items: center;
+    gap: 10px;
+}
+
+#imgpessoa {
+    grid-area: 'imgpessoa';
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+#nome{
+    grid-area: 'nome';
+    font-size: 18px;
+    
+}
+
+.attribution{
+    justify-content: center;
+    align-items: center;
+}
